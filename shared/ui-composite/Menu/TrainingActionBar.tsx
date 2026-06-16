@@ -338,8 +338,6 @@ const TrainingActionBar: React.FC<ITopBarProps> = ({
                         'rounded-3xl transition-colors duration-200',
                         'border-b-16',
                         'hover:cursor-pointer',
-                        colorScheme === 'secondary' &&
-                          'border-(--secondary-color-accent) bg-(--secondary-color)/90 text-(--background-color)',
                         colorScheme === 'primary' &&
                           (isFilled
                             ? 'border-(--main-color-accent) bg-(--main-color) text-(--background-color)'
